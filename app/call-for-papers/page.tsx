@@ -247,16 +247,8 @@ export default function CallForPapersPage() {
                   Detailed formatting rules, templates, and submission procedure
                   can be added here once finalized by the organizing committee.
                 </p>
-                <p>
-                  This page can later include:
-                </p>
-                <ul className="list-disc space-y-2 pl-6">
-                  <li>submission link or portal</li>
-                  <li>abstract template download</li>
-                  <li>paper formatting instructions</li>
-                  <li>review policy</li>
-                  <li>presentation guidelines</li>
-                </ul>
+                
+                
               </div>
             </div>
 
