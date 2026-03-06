@@ -1,26 +1,133 @@
 @import "tailwindcss";
 
+/* ------------------------------------------------ */
+/* Root Theme Variables */
+/* ------------------------------------------------ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f4f6fb;
+  --foreground: #0f172a;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* ------------------------------------------------ */
+/* Base Body Styling */
+/* ------------------------------------------------ */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------------------------------------------ */
+/* HERO SECTION BACKGROUND */
+/* Dark conference-style gradient */
+/* ------------------------------------------------ */
+
+.hero-pattern {
+  position: relative;
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at 20% 20%, rgba(34, 211, 238, 0.18), transparent 30%),
+    radial-gradient(circle at 80% 30%, rgba(59, 130, 246, 0.18), transparent 30%),
+    radial-gradient(circle at 50% 80%, rgba(16, 185, 129, 0.12), transparent 30%),
+    linear-gradient(135deg, #0a2c5a 0%, #0f3f7a 50%, #0a2c5a 100%);
+}
+
+/* Decorative blurred lights */
+
+.hero-pattern::before,
+.hero-pattern::after {
+  content: "";
+  position: absolute;
+  border-radius: 9999px;
+  pointer-events: none;
+}
+
+.hero-pattern::before {
+  width: 500px;
+  height: 500px;
+  left: -150px;
+  top: 80px;
+  background: radial-gradient(circle, rgba(34, 211, 238, 0.20), transparent 70%);
+  filter: blur(12px);
+}
+
+.hero-pattern::after {
+  width: 600px;
+  height: 600px;
+  right: -200px;
+  bottom: -120px;
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.15), transparent 70%);
+  filter: blur(20px);
+}
+
+/* ------------------------------------------------ */
+/* Glass-style translucent card */
+/* Used for countdown block */
+/* ------------------------------------------------ */
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+}
+
+/* ------------------------------------------------ */
+/* Clean conference card style */
+/* ------------------------------------------------ */
+
+.soft-card {
+  background: white;
+  border-radius: 1rem;
+  border: 1px solid #e5e7eb;
+  padding: 1.5rem;
+
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+/* ------------------------------------------------ */
+/* Section title decoration */
+/* ------------------------------------------------ */
+
+.section-title-line {
+  width: 48px;
+  height: 4px;
+  border-radius: 9999px;
+  background: #4f46e5;
+}
+
+/* ------------------------------------------------ */
+/* Smooth hover animation */
+/* ------------------------------------------------ */
+
+.soft-card:hover {
+  transform: translateY(-3px);
+  transition: all 0.2s ease;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.10);
+}
+
+/* ------------------------------------------------ */
+/* Utility spacing for conference sections */
+/* ------------------------------------------------ */
+
+.section-spacing {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* ------------------------------------------------ */
+/* Mobile tweaks */
+/* ------------------------------------------------ */
+
+@media (max-width: 768px) {
+  .section-spacing {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 }
