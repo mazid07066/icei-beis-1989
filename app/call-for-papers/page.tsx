@@ -6,7 +6,7 @@ const tracksLeft = [
     items: [
       "Advanced Electronics",
       "Power Electronic Circuits and Devices",
-      "Nanoelectronics and Nanosensors",
+      "Nanoelectronics and Nanonsensors",
       "Embedded System Design",
     ],
   },
@@ -98,7 +98,7 @@ export default function CallForPapersPage() {
 
         <div className="relative mx-auto max-w-7xl px-6 text-center md:px-10">
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-cyan-300">
-            ICEI 2026
+            ICEI2026
           </p>
 
           <h1 className="mt-4 text-4xl font-extrabold leading-tight text-white md:text-6xl">
@@ -109,7 +109,7 @@ export default function CallForPapersPage() {
             Bangladesh Electronics and Informatics Society (BEIS) invites
             researchers, academicians, engineers, students, and professionals
             to submit original contributions to the International Conference on
-            Electronics and Informatics 2026 (ICEI 2026).
+            Electronics and Informatics 2026 (ICEI2026).
           </p>
 
           <p className="mx-auto mt-6 max-w-4xl text-xl font-semibold text-cyan-300 md:text-2xl">
@@ -198,7 +198,7 @@ export default function CallForPapersPage() {
             <div className="section-title-line mt-4" />
 
             <p className="mt-6 max-w-4xl text-lg leading-8 text-slate-600">
-              ICEI 2026 welcomes submissions in electronics, informatics,
+              ICEI2026 welcomes submissions in electronics, informatics,
               computing, energy, robotics, materials, communication,
               interdisciplinary applications, and emerging technological areas.
             </p>
@@ -247,8 +247,26 @@ export default function CallForPapersPage() {
                   Detailed formatting rules, templates, and submission procedure
                   can be added here once finalized by the organizing committee.
                 </p>
-                
-                
+
+                <div className="mt-8 flex flex-wrap gap-4">
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeIQq3tH3ElGgOOSXKEKSZLUn2OZvT-AY2UEK-tEX3l2aPS7Q/viewform?fbclid=IwY2xjawQXbU1leHRuA2FlbQIxMABicmlkETFPclI3Yk9tYXQ3RENlRjRKc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHs2eXrNaLtotBdu-F3sFCEds1_CoCFui-1kr-kJHP0ar0TTMCIrPQOeM4yzA_aem_tXoqB5uH3WAfpekV255QLg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg bg-indigo-700 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition hover:bg-indigo-800"
+                  >
+                    Submit Paper
+                  </a>
+
+                  <a
+                    href="https://docs.google.com/document/d/1U-rohP4OASsQCLBlug-iLHwD4te3GeLKFJPXMsqqjGE/edit?tab=t.0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg border border-indigo-700 px-6 py-3 text-sm font-bold uppercase tracking-wide text-indigo-700 transition hover:bg-indigo-50"
+                  >
+                    Submission Template
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -318,18 +336,35 @@ export default function CallForPapersPage() {
             </h2>
             <div className="section-title-line mt-4" />
             <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
-              The official ICEI 2026 flyer is shown below for quick reference.
+              The official ICEI2026 flyer and additional conference information
+              pages are shown below for quick reference.
             </p>
           </div>
 
           <div className="soft-card overflow-hidden p-4">
-            <div className="relative mx-auto max-w-4xl">
+            <div className="mx-auto mt-4 max-w-5xl space-y-10">
               <Image
                 src="/images/icei2026-flyer.jpg"
-                alt="ICEI 2026 conference flyer"
+                alt="ICEI2026 conference flyer"
                 width={1200}
                 height={1600}
-                className="h-auto w-full rounded-xl"
+                className="mx-auto h-auto w-full rounded-xl"
+              />
+
+              <Image
+                src="/images/icei2026-flyer-page1.jpg"
+                alt="ICEI2026 conference flyer page 2"
+                width={1200}
+                height={1600}
+                className="mx-auto h-auto w-full rounded-xl"
+              />
+
+              <Image
+                src="/images/icei2026-flyer-page2.jpg"
+                alt="ICEI2026 conference flyer page 3"
+                width={1200}
+                height={1600}
+                className="mx-auto h-auto w-full rounded-xl"
               />
             </div>
 
@@ -340,7 +375,7 @@ export default function CallForPapersPage() {
                 rel="noopener noreferrer"
                 className="rounded-lg bg-indigo-700 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition hover:bg-indigo-800"
               >
-                Open Flyer
+                Open Main Flyer
               </a>
 
               <a
@@ -348,7 +383,25 @@ export default function CallForPapersPage() {
                 download
                 className="rounded-lg border border-indigo-700 px-6 py-3 text-sm font-bold uppercase tracking-wide text-indigo-700 transition hover:bg-indigo-50"
               >
-                Download Flyer
+                Download Main Flyer
+              </a>
+
+              <a
+                href="/images/icei2026-flyer-page1.jpg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-slate-300 px-6 py-3 text-sm font-bold uppercase tracking-wide text-slate-700 transition hover:bg-slate-50"
+              >
+                Open Page 2
+              </a>
+
+              <a
+                href="/images/icei2026-flyer-page2.jpg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg border border-slate-300 px-6 py-3 text-sm font-bold uppercase tracking-wide text-slate-700 transition hover:bg-slate-50"
+              >
+                Open Page 3
               </a>
             </div>
           </div>

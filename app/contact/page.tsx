@@ -8,7 +8,7 @@ export default function ContactPage() {
           Bangladesh Electronics and Informatics Society (BEIS)
         </p>
         <p>Email: info@beis.com.bd</p>
-        <p>Website: www.beis.com.bd</p>
+        <p>Contact:  +8801712627014</p>
       </div>
     </main>
   );

@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <Link href="/" className="text-white">
             <div className="text-lg font-extrabold tracking-wide md:text-xl">
-              ICEI 2026
+              ICEI2026
             </div>
             <div className="text-xs text-cyan-200">Organized by BEIS</div>
           </Link>
