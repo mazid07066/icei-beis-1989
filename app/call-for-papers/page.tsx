@@ -138,13 +138,13 @@ export default function CallForPapersPage() {
                 <span className="font-semibold text-slate-900">
                   Abstract Submission Deadline:
                 </span>{" "}
-                31 March 2026
+                10 April 2026
               </p>
               <p>
                 <span className="font-semibold text-slate-900">
                   Notification of Acceptance:
                 </span>{" "}
-                15 April 2026
+                20 April 2026
               </p>
             </div>
           </div>
@@ -157,7 +157,7 @@ export default function CallForPapersPage() {
               <p className="font-semibold text-slate-900">
                 Atomic Energy Centre
               </p>
-              <p>Shahbag, Dhaka</p>
+              
             </div>
           </div>
 

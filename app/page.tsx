@@ -199,13 +199,13 @@ export default function HomePage() {
                 <span className="font-semibold text-slate-900">
                   Abstract Submission Deadline:
                 </span>{" "}
-                31 March 2026
+                10 April 2026
               </p>
               <p className="mt-3">
                 <span className="font-semibold text-slate-900">
                   Notification of Acceptance:
                 </span>{" "}
-                15 April 2026
+                20 April 2026
               </p>
               <p className="mt-3">
                 <span className="font-semibold text-slate-900">
