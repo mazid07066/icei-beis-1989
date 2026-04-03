@@ -290,7 +290,7 @@ export default function CallForPapersPage() {
 
                 <div>
                   <p className="font-semibold text-slate-900">
-                    Secretary, Organizing Committee
+                    Member Secretary, Organizing Committee
                   </p>
                   <p>Mohammed Nazrul Islam Khan, PhD</p>
                   <p>
