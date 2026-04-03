@@ -5,6 +5,7 @@ import InfoCard from "@/components/InfoCard";
 const organizingCommittee = [
   "Convener: Prof. Rezaul Karim Mazumder, PhD (DU)",
   "Secretary: Mohammed Nazrul Islam Khan, PhD (BAEC)",
+  "Members:",
   "Prof. A. K. M. Akther Hossain, PhD (BUET)",
   "Prof. S. M. Mostafa Al Mamun, PhD (DU)",
   "Prof. Md. Ismail Jabiullah, PhD (DIU)",
@@ -28,7 +29,7 @@ const organizingCommittee = [
 
 const advisoryCommittee = [
   "Prof. ABM Badruzzaman, PhD (VC, BUET)",
-  "Prof. Md. Maksud Helali, PhD (VC, KUET)",
+  "Prof. Dr. Mohammad Mashud (VC, KUET)",
   "Prof. S M Abdur Razzak, PhD (VC, RUET)",
   "Prof. Mahmud Abdul Matin Bhuiyan, PhD (VC, CUET)",
   "Prof. Mohammad Zoynal Abedin, PhD (VC, DUET)",
