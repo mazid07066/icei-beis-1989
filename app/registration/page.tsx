@@ -15,7 +15,7 @@ export default function RegistrationPage() {
 
           <p className="mx-auto mt-6 max-w-4xl text-lg leading-8 text-gray-200 md:text-xl">
             Online registration for the International Conference on Electronics
-            and Informatics 2026 is now open.
+            and Informatics 2026 is now CLOSED.
           </p>
         </div>
       </section>
